@@ -13,7 +13,7 @@ export default function Header() {
 
             <Link to="/" className={s.boxLogo}>
                 <img src={logo} alt="logo - Livro aberto" />
-                <h1>vnw.Livros</h1>
+                <h1>vnw.Lib</h1>
             </Link>
 
             <nav className={s.nav}>

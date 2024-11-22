@@ -1,0 +1,47 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #005695;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.11rem 0rem;
+  width: 85%;
+  color: #fff;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+.icons {
+  display: flex;
+  gap: 1rem;
+
+  svg {
+    font-size: 1.5rem;
+    color: #fff;
+    transition: transform 0.3s;
+    &:hover {
+      transform: scale(1.1);
+      color: #61dafb;
+      cursor: pointer;
+    }
+    &:active {
+      transform: scale(0.92);
+      color: #45a3bd;
+    }
+  }
+}

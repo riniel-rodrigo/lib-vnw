@@ -1,0 +1,12 @@
+.footer {
+  bottom: 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+.copyright {
+  font-weight: 200;
+}/*# sourceMappingURL=footer.module.css.map */
