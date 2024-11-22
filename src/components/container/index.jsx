@@ -1,8 +1,8 @@
 import s from './container.module.scss'
 
-export default function Container({ width, children }) {
+export default function Container({ backgroundColor, children }) {
     return (
-        <div style={{ width }} className="container">
+        <div style={{ backgroundColor }} className={s.container}>
             {children}
         </div>
     );
