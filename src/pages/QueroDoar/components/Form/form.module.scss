@@ -1,0 +1,60 @@
+.ContainerForm {
+  min-height: 100vh;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem 4rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 4px rgba(4, 62, 177, 0.438);
+}
+
+.FormHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.FormGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+
+  input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #005695;
+    border-radius: 0.5rem;
+    background-color: #fff;
+
+    &:focus-visible {
+      border-color: #005695;
+      outline: 1.5px solid #005695;
+    }
+  }
+}
+
+.FormButton {
+  button {
+    all: unset;
+    padding: 0.8rem 2.8rem;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #005695;
+    border-radius: 10px;
+    transition: all 0.1s ease-in-out;
+    &:hover {
+      cursor: pointer;
+      background-color: #004a7f;
+    }
+    &:active {
+      transform: scale(0.92);
+    }
+  }
+}

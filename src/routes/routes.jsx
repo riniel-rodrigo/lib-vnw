@@ -1,13 +1,13 @@
 import {
   Route,
   createBrowserRouter,
-  createRoutesFromElements
-} from 'react-router-dom';
+  createRoutesFromElements,
+} from "react-router-dom";
 
-import DefaultLayout from '../layout/defaultLayout';
-import Home from '../pages/Home';
-import LivrosDoados from '../pages/LivrosDoados';
-import QueroDoar from '../pages/QueroDoar';
+import DefaultLayout from "../layout/defaultLayout";
+import Home from "../pages/Home";
+import LivrosDoados from "../pages/LivrosDoados";
+import QueroDoar from "../pages/QueroDoar";
 
 export const Router = createBrowserRouter(
   createRoutesFromElements(

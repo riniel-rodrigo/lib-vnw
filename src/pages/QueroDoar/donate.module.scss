@@ -1,0 +1,14 @@
+.ContainerDonate {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+  min-height: 90vh;
+  padding: 2.5rem 2rem;
+
+  p {
+    font-size: 0.9em;
+    font-weight: 300;
+    text-align: center;
+  }
+}
