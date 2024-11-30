@@ -8,6 +8,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+  @media (max-width: 1100px) {
+    background-position: center;
+  }
+
   h4 {
     width: 20rem;
     margin-left: 5rem;
@@ -15,5 +19,16 @@
     font-size: 1.9rem;
     color: #fff;
     line-height: 2.344rem;
+
+    @media (max-width: 600px) {
+      margin-left: 2rem;
+    }
+
+    @media (max-width: 400px) {
+      align-self: center;
+      justify-self: center;
+      margin-left: 0;
+      text-align: center;
+    }
   }
 }

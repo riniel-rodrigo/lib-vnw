@@ -5,6 +5,13 @@
   min-height: 100vh;
   padding: 2.5rem 2rem;
 
+  @media (max-width: 600px) {
+    align-items: c;
+    justify-content: center;
+    min-height: 80vh;
+    flex: 1;
+  }
+
   p {
     font-size: 0.9em;
     font-weight: 300;

@@ -9,6 +9,14 @@
     color: #005695;
     line-height: 3.026rem;
   }
+
+  @media (max-width: 485px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
 }
 
 .cards {
@@ -17,4 +25,21 @@
   max-width: 1500px;
   gap: 1.5rem;
   margin-top: 2.5rem;
+
+  @media (max-width: 1280px) {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 800px;
+  }
+
+  @media (max-width: 865px) {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 600px;
+  }
+
+  @media (max-width: 485px) {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 300px;
+    align-items: center;
+    justify-content: center;
+  }
 }

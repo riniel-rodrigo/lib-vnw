@@ -12,6 +12,11 @@
   padding: 1.11rem 0rem;
   width: 85%;
   color: #fff;
+
+  @media (max-width: 455px) {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 }
 
 .copyright {

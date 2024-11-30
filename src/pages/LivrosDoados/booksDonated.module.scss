@@ -3,11 +3,24 @@
   flex-direction: column;
   gap: 2rem;
   min-height: 100vh;
-  padding: 2.5rem 5rem;
+  padding: 2.5rem 0;
 }
 
 .BooksList {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
-  flex-wrap: wrap;
+  max-width: 1500px;
+
+  @media (max-width: 1210px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 890px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
