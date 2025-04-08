@@ -10,12 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.8.4",
     "framer-motion": "^11.11.17",
     "lib-vnw": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
     "react-router-dom": "^6.28.0",
+    "react-spinners": "^0.15.0",
+    "react-toastify": "^11.0.5",
     "sass": "^1.81.0",
     "uuid": "^11.0.3"
   },

@@ -9,7 +9,7 @@ import { mockNotes } from "../../mocks/mockNotes";
 import s from "./home.module.scss";
 
 export default function Home() {
-  const [data, setData] = useState(mockNotes);
+  const [data] = useState(mockNotes);
 
   return (
     <main>
